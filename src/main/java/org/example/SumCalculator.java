@@ -13,6 +13,7 @@ public class SumCalculator {
     }
     public static void main(String[] args) {
         SumCalculator calc = new SumCalculator();
+        System.out.println("hello");
         System.out.println(calc.sum(15));
     }
 }
