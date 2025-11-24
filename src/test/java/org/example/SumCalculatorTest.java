@@ -19,6 +19,11 @@ class SumCalculatorTest {
     }
 
     @Test
+    void testSumWithMoreNumber() {
+        assertEquals(10, calc.sum(4)); // 1+2+3+4 = 10
+    }
+
+    @Test
     void testSumWithOne() {
         assertEquals(1, calc.sum(1));
     }
